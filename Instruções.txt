@@ -1,0 +1,31 @@
+By W3SFX
+
+Instalar o xampp - "Vem com o PHP atualizado e Banco de dados" ***Não obrigatório*** fazendo a instalação do PHP é suficiente, porém não acompanha os beneficios.
+
+Instalar o Composer - Gerencia as atualizações dos pacotes do PHP junto ao Laravel.
+
+Verificar instação no terminal: composer --version
+
+Configurar a variável de sistema. (Pega o endereço do executavel, e faz a configuração)
+
+Verificar o PHP: php --version
+
+Instalação do Laravel, já que instalamos o composer, e ele gerencia as dependencias do php, podemos usá-lo para instalação do Laravel// composer global require laravel/installer
+
+Consultar instalação do laravel: laravel --version
+
+Criar 1 projeto com o framework Laravel, cria uma pasta em um local desejado, acessa a pasta pelo terminal//
+laravel new "nome do projeto sem as aspas" // irá fazer toda a instalação do laravel na pasta.
+
+O próprio laravel disponibiliza um servidor interno, inicia ele pelo terminal, primeiramente acesse a pasta do projeto pelo terminal // php artisan serve = inicia, Ctrl + C = para
+
+Agora é só abrir o projeto pelo editor (VSCode)...
+
+Endereço dos projetos no xampp = C:\xampp\htdocs
+
+Virtual Host: No xampp = C:\xampp\apache\conf\extra procurar por httpd-vhosts.conf
+No windows = C:\Windows\System32\drivers\etc procurar por hosts
+Ctrl + c, Ctrl + v, editar conforme a necessidade.
+
+Iniciar o tinker para cosultas no banco de dados - php artisan tinker.
+Consulta da configuração do banco de dados - DB::connection()->getPdo();

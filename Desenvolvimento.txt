@@ -1,0 +1,1 @@
+php artisan make:controller HomeController --invokable - criar um controller do tipo invokable com método invoke com uma unica função de retornar a página home.
