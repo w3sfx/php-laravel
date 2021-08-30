@@ -28,4 +28,4 @@ No windows = C:\Windows\System32\drivers\etc procurar por hosts
 Ctrl + c, Ctrl + v, editar conforme a necessidade.
 
 Iniciar o tinker para cosultas no banco de dados - php artisan tinker.
-Consulta da configuração do banco de dados - DB::connection()->getPdo();
+Consulta da configuração do banco de dados - DB::connection()->getPdo()
